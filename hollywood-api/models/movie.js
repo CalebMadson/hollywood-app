@@ -5,9 +5,10 @@ module.exports = db => {
     title: type.string().required(),
     poster: type.string().required(),
     summary: type.string().required(),
+    stars: type.string().required(),
     rating: type
       .string()
-      .enum(["PG", "PG-13", "R", "NR"])
+      .enum(["G", "PG", "PG-13", "R", "NR"])
       .required(),
     rottenTomatoes: type
       .number()

@@ -11,7 +11,8 @@ import {
   CreateMovie,
   CreateActor
 } from "./views";
-
+//importing all functions and pages from said folders
+//then using browserrouter to set up pages to be displayed
 class Router extends Component {
   render() {
     return (
